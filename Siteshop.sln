@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siteshop", "Siteshop\Siteshop.csproj", "{F5BEA943-BBAC-4843-9C53-319DA1FB0023}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteCrud", "SiteCrud\SiteCrud.csproj", "{33B7FF3D-4810-4261-A0E1-14734D070721}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5BEA943-BBAC-4843-9C53-319DA1FB0023} = {F5BEA943-BBAC-4843-9C53-319DA1FB0023}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
